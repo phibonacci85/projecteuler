@@ -1,0 +1,27 @@
+{
+  "name": "projecteuler",
+  "version": "1.0.0",
+  "description": "A place to work on ProjectEuler.net problems",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm --inspect-brk --inspect=0.0.0.0:9229 index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phibonacci85/projecteuler.git"
+  },
+  "keywords": [
+    "projecteuler"
+  ],
+  "author": "John Baker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phibonacci85/projecteuler/issues"
+  },
+  "homepage": "https://github.com/phibonacci85/projecteuler#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^1.19.1"
+  }
+}
